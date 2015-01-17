@@ -1,20 +1,13 @@
-AIR for desktop instructions
 
-1. Configuration
-
-	- edit 'bat\SetupSDK.bat' for the path to Flex SDK
-
-
-2. Creating a self-signed certificate:
-
-	- run 'bat\CreateCertificate.bat' to generate your self-signed certificate,
-
-	(!) wait a minute before packaging.
-
-
-3. Run/debug from FlashDevelop as usual (build F8, build&run F5 or Ctrl+Enter)
-
-
-4. Packaging for release:
-
-	- run 'PackageApp.bat' to only create the AIR setup
+功能描述：
+1.加载按钮
+	用于加载外部配置文件，然后显示
+2.保存按钮
+	当前修改的配置保存到知道文件
+3.将配置文件数据显示出来
+4.修改配置文件
+5.每个节点，双击后，出现新的对话框，并且有子按钮，进行子显示
+6.可以增加子节点
+9.可以增加条数
+10.可以进行提交
+11.分页功能。
